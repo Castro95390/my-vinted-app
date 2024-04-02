@@ -1,0 +1,67 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 10px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.all_card {
+  display: flex;
+  padding: 0%;
+  margin-right: 10px;
+}
+
+.card {
+  margin: 10 10 10 10;
+  text-align: center;
+  avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: black;
+}
+
+.article {
+  display: flex block;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

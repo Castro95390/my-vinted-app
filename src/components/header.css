@@ -1,0 +1,30 @@
+/* try d'un peu de SASS*/
+header {
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  h1 {
+    color: #017782;
+    font-family: cursive;
+    margin-right: 600px;
+  }
+}
+button {
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #017782;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  color: #017782;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: white;
+  color: white;
+  background-color: #017782;
+}
